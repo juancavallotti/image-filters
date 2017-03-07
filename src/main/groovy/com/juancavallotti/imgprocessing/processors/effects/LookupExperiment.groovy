@@ -10,7 +10,7 @@ import org.apache.logging.log4j.Logger
  * Created by juancavallotti on 2/22/15.
  */
 
-@DisplaySettings(displayText = "Lookup experiment...")
+@DisplaySettings(displayText = "Lookup Filter")
 class LookupExperiment extends LookupImageProcessor {
 
     private static final Logger logger = LogManager.getLogger(LookupExperiment)

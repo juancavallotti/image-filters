@@ -138,7 +138,7 @@ class UserInterface {
 
     private void executeProcessor(ImageProcessor processor) {
 
-        if (!ProcessorConfigurerDialog.displayProcessorConfiguration(processor, this.frame)) {
+        if (!ProcessorConfigurerDialog.configureProcessor(processor, this.frame)) {
             //user hit cancel or dialog has invalid configuration.
             return;
         }
